@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPS Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__left">
+        <img class="menu__icon hide-on-desktop" src="Images/burger.svg" alt="Menu">
+    </div>
+
+    <div class="header__divider hide-on-mobile hide-on-desktop"></div>
+
+    <div class="header__center">
+        <img class="logo__icon hide-on-desktop" src="Images/Logo.svg" alt="Logo">
+    </div>
+
+    <div class="header__divider hide-on-desktop hide-on-tablet"></div>
+
+    <div class="header__right">
+        <img class="profile__call hide-on-mobile hide-on-desktop" src="Images/call.svg" alt="Call">
+        <img class="profile__chat hide-on-mobile hide-on-desktop" src="Images/chat.svg" alt="Chat">
+        <img class="profile__icon hide-on-mobile hide-on-desktop" src="Images/profile.svg" alt="Profile">
+
+        <div class="header__divider hide-on-mobile hide-on-desktop"></div>
+
+        <p class="hide-on-mobile hide-on-tablet">Submit a Request</p>
+        <img class="repair__icon" src="Images/repair.svg" alt="Repair">
+        <p class="hide-on-mobile hide-on-tablet">Repair Status</p>
+        <img class="status__icon" src="Images/checkstatus.svg" alt="Status">
+    </div>
+  </header>
+
+  <div class="header__right--desktop-only">
+    <p>Submit a Request</p>
+    <img class="repair__icon" src="Images/repair.svg" alt="Repair">
+    <p>Repair Status</p>
+    <img class="status__icon" src="Images/checkstatus.svg" alt="Status">
+  </div>
+
+  <main class="main">
+    <section class="services">
+      <h2 class="services__title">Services</h2>
+
+      <div class="services__tabs">
+        
+        <div class="services__tab-wrapper hide-on-mobile hide-on-tablet">
+        <button class="services__tab services__tab--active--pc">Brands We Repair</button>
+         <div class="services__subtext">Reviews</div>   
+        </div>
+
+        <button class="services__tab services__tab--active">Repairable Devices</button>
+        <button class="services__tab">Additional Services</button>
+        <button class="services__tab">Service Prices</button>
+        <button class="services__tab">Service Center Locations</button>
+        <button class="services__tab">Special Prices</button>
+      </div>
+
+      <div class="services__content">
+       <div class="services__text">
+        <p class="services__description">
+          We are an authorized service center for Dell equipment repair. Only with us can you repair your Dell laptop with the official manufacturer's warranty.
+        </p>
+        <p class="services__description hide-on-mobile">
+          We have been operating successfully since 1992 and have earned a reputation as a reliable partner.
+          <span class=" hide-on-mobile hide-on-tablet show-on-desktop">We take pride in the fact that people come to us based on recommendations and, in turn, recommend us to their family and friends.</span>
+        </p>  
+        <a href="#" class="services__link">
+          <img class="services__arrow" src="Images/expand.svg" alt="expand">
+          Read More
+        </a>
+       </div> 
+
+       <div class="services__image">
+        <img src="Images/Picture.png" alt="CPS">
+       </div>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
